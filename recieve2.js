@@ -21,7 +21,7 @@ amqp.connect('amqp://localhost', function(error0, connection) {
             durable: false
         }); 
 
-        console.log("First consumer:\n"+" [*] Waiting for messages in %s and %ss. To exit press CTRL+C", queue1 , queue2);
+        console.log("Second consumer:\n"+" [*] Waiting for messages in %s and %ss. To exit press CTRL+C", queue1 , queue2);
         
         channel.consume(queue1, function(msg) {
             console.log(" [x] Received %s", msg.content.toString());
