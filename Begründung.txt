@@ -1,0 +1,13 @@
+Wenn zwei Consumer und ein Receiver gibt
+    -Erste Message geht zu 1ste Cosnumer 
+    -Zweite Message zu zweite Cosnumer
+    -Die beide Cosnumer erhalten die Messages abwechselnd.
+
+Wenn Consumer nicht gestartet ist
+    -Producer kann ohne Problem Nachrichten an den entsprechende 'Queue' schicken.
+
+Wenn Producer nicht gestartet ist   
+    -Consumer warten auf Nachrichten. 
+
+Wenn rabbitMQ server abstürzt
+    -Falls das 'Queue' nicht durable war geht die Nachrichten verloren.
