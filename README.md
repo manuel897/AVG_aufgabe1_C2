@@ -7,7 +7,7 @@
 # Starting server
 
 1. Start server by running **rabbitmq-server.bat** from "...\RabbitMQ\rabbitmq_server-3.8.0\sbin"
-2. Run scripts send, send2 and recieve.
+2. ( Node js shold be installed ) Run scripts send, send2 and recieve.
 
 ```CMD 
 
