@@ -1,4 +1,4 @@
-Wenn zwei Consumer und ein Receiver gibt
+Wenn zwei Producer und ein Receiver gibt
     -Erste Message geht zu 1ste Cosnumer 
     -Zweite Message zu zweite Cosnumer
     -Die beide Cosnumer erhalten die Messages abwechselnd.
